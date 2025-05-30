@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "payment.gateway",
+      "type": "com.service.config.PaymentClientProperties",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "payment.gateway.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    },
+    {
+      "name": "payment.gateway.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    },
+    {
+      "name": "payment.gateway.client-id",
+      "type": "java.util.UUID",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    },
+    {
+      "name": "payment.gateway.connectiontimeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    },
+    {
+      "name": "payment.gateway.read-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    },
+    {
+      "name": "payment.gateway.test-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.service.config.PaymentClientProperties"
+    }
+  ],
+  "hints": []
+}
